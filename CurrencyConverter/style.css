@@ -28,7 +28,7 @@ button,
 input {
   width: 100%;
   border: none;
-  outline: none;
+  outline: none;                                              //to avoid the default behavior that is when we select our box then an outline surrounding the box comes
   border-radius: 0.75rem;
 }
 
