@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: #548687;
+  background-color: #548687;      							//using coolers website we can color pallets which when used together would be visually appealing
   text-align: center;
 }
 
@@ -17,7 +17,7 @@ body {
 }
 
 .game {
-  height: 60vmin;
+  height: 60vmin;									//vmin = the smaller of vw or vh.  ||  vmax = the larger of vw or vh. here conatiner took 70%height of body and game took 60% of height of body
   width: 60vmin;
   display: flex;
   flex-wrap: wrap;
