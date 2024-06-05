@@ -36,7 +36,7 @@ boxes.forEach((box) => {
       box.innerText = "X";
       turnO = true;
     }
-    box.disabled = true;
+    box.disabled = true;                              //so that when again this button is clicked we dont change its value
     count++;
 
     let isWinner = checkWinner();
